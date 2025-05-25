@@ -1,5 +1,5 @@
 import React from 'react';
-import './Categories.css';
+import './categories.css';
 
 const Categories = ({ categoryName, imgUrl, numberOfItems, bgColor, isSelected, onClick }) => {
     return (
