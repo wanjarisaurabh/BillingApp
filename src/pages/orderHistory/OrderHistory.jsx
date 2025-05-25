@@ -24,7 +24,8 @@ const OrderHistory = () => {
   }, []);
 
   const formatItems = (items) => {
-    return items.map(item => `${item.name} x (${item.quantity})`).join(', ');
+    console.log(items);
+    return items.map(item => `${item.name} x (${item.quntity})`).join(', ');
   };
 
   const formatDate = (dateString) => {
