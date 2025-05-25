@@ -1,0 +1,147 @@
+/* Main wrapper */
+.dashboard-wrapper {
+    background-color: #121212;
+    min-height: 100vh;
+    padding: 2rem;
+    color: #f1f1f1;
+    font-family: 'Segoe UI', sans-serif;
+}
+
+/* Top Cards Grid */
+.dashboard-container {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.start-grid {
+    display: flex;
+    gap: 2rem;
+    flex-wrap: wrap;
+}
+
+/* Stat Card Style */
+.stat-card {
+    background-color: #1f1f1f;
+    padding: 1.5rem;
+    border-radius: 12px;
+    width: 300px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.stat-icon {
+    background-color: #2e2e2e;
+    padding: 0.75rem;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.5rem;
+    color: #4ade80;
+}
+
+.stat-content {
+    margin-left: 1rem;
+}
+
+.stat-content h3 {
+    font-size: 1rem;
+    margin: 0;
+    color: #b0b0b0;
+}
+
+.stat-content p {
+    font-size: 1.6rem;
+    font-weight: bold;
+    margin: 0.25rem 0 0 0;
+}
+
+/* Recent Orders Card */
+.recent-orders-card {
+    background-color: #1f1f1f;
+    border-radius: 12px;
+    padding: 1.5rem;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+
+.recent-orders-title {
+    font-size: 1.25rem;
+    margin-bottom: 1rem;
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    font-weight: 600;
+    color: #f5f5f5;
+}
+
+.orders-table-container {
+    overflow-x: auto;
+}
+
+.orders-table {
+    width: 100%;
+    border-collapse: separate;
+    border-spacing: 0 10px;
+}
+
+.orders-table th,
+.orders-table td {
+    padding: 0.75rem 1rem;
+    text-align: left;
+}
+
+.orders-table th {
+    color: #bdbdbd;
+    font-weight: 600;
+    font-size: 0.95rem;
+}
+
+.orders-table td {
+    background-color: #2a2a2a;
+    border-radius: 8px;
+    color: #e0e0e0;
+    font-size: 0.95rem;
+}
+
+/* Payment & Status Styling */
+.payment-method {
+    padding: 0.2rem 0.6rem;
+    border-radius: 6px;
+    font-weight: 600;
+    display: inline-block;
+    font-size: 0.85rem;
+}
+
+.payment-method.cash {
+    background-color: #facc15;
+    color: black;
+}
+
+.payment-method.upi {
+    background-color: #34d399;
+    color: black;
+}
+
+.status {
+    font-weight: bold;
+    font-size: 0.85rem;
+    padding: 0.2rem 0.6rem;
+    border-radius: 6px;
+    background-color: #22c55e;
+    color: black;
+}
+
+/* Dashboard.css */
+
+
+
+
+.dashboard-wrapper {
+    overflow-x: auto;
+    overflow-y: auto;
+    padding: 1rem;
+    /* Enables horizontal scroll for table if needed */
+}

@@ -1,0 +1,40 @@
+.item-card {
+    border: none;
+    color: #fff;
+    min-height: 100px;
+    transition: transform 0.2s;
+}
+
+.item-card:hover {
+    transform: scale(1.02);
+}
+
+.item-image {
+    width: 60px;
+    height: 60px;
+    object-fit: contain;
+    padding: 5px;
+   
+}
+
+.item-name {
+    font-size: 18px;
+}
+
+.item-price {
+    font-size: 0.9rem;
+    color: #fff;
+    background-color: none;
+
+}
+
+.cart-icon {
+    color: #ffc107;
+    font-size: 1.5rem;
+    cursor: pointer;
+}
+
+.btn {
+    border-radius: 10%;
+    font-size: 0.9rem;
+}

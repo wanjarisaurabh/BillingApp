@@ -1,0 +1,7 @@
+export const AppConstants = {
+//TEMPRARY KEY AND SECRET FOR RAZORPAY
+// DO NOT USE IN PRODUCTION
+RAZORPAY_KEY_ID: "rzp_test_2Y0v1q4x3c5g7d",
+RAZORPAY_KEY_SECRET: "2Y0v1q4x3c5g7d",
+
+}

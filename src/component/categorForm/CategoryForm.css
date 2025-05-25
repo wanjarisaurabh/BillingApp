@@ -1,0 +1,12 @@
+.form-container {
+    max-height: 500px;
+    /* or any desired height */
+    overflow-y: auto;
+    padding: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 0.5rem;
+}
+
+.form-control-color{
+    color: #000;
+}

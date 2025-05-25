@@ -1,0 +1,46 @@
+.category-card {
+    border-radius: 15px;
+    height: 150px;
+    padding: 10px;
+    transition: transform 0.3s, box-shadow 0.3s;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+}
+
+.category-card:hover {
+    transform: scale(1.03);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+}
+
+.active-category-dot {
+    position: absolute;
+    top: 8px;
+    right: 10px;
+    width: 12px;
+    height: 12px;
+    background-color: white;
+    border-radius: 50%;
+    border: 2px solid #000;
+}
+
+.category-img {
+    width: 50px;
+    height: 50px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+.category-title {
+    font-size: 0.95rem;
+    font-weight: 600;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    max-width: 100px;
+}
+
+/* Highlight selected category with border or indicator */
+.selected-category {
+    outline: 3px solid white;
+    outline-offset: -3px;
+}
